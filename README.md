@@ -1,2 +1,2 @@
 # Movie_Website
-Kim and Khai founder project
+The project founded by Kim and Khai
