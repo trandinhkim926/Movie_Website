@@ -1,35 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MovieWebsiteProject\\Movie_Website\\backend\\backend.csproj": {}
+    "D:\\ProjectPersonal\\Movie_Website\\backend\\backend.csproj": {}
   },
   "projects": {
-    "C:\\MovieWebsiteProject\\Movie_Website\\backend\\backend.csproj": {
+    "D:\\ProjectPersonal\\Movie_Website\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MovieWebsiteProject\\Movie_Website\\backend\\backend.csproj",
+        "projectUniqueName": "D:\\ProjectPersonal\\Movie_Website\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\MovieWebsiteProject\\Movie_Website\\backend\\backend.csproj",
-        "packagesPath": "C:\\Users\\myha0\\.nuget\\packages\\",
-        "outputPath": "C:\\MovieWebsiteProject\\Movie_Website\\backend\\obj\\",
+        "projectPath": "D:\\ProjectPersonal\\Movie_Website\\backend\\backend.csproj",
+        "packagesPath": "C:\\Users\\Tran Dinh Kim\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjectPersonal\\Movie_Website\\backend\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\myha0\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Tran Dinh Kim\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -44,11 +39,30 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
